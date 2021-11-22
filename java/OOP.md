@@ -21,3 +21,9 @@
 - **Difference between class and interface?**
 
   A class describes the attributes and behaviors of an object. An interface contains behaviors that a class implements. A class may contain abstract methods, concrete methods. An interface contains only abstract methods.
+
+- **what is abstract class?**
+
+  define an abstracted class without defining the implementation so it will be left to the subclasses to define the implementation separately
+
+  example : define creature as abstract class that defines abstract methods to it's subclasses that extends it (aging, eating, growth , .. ), then each subclass like animals , humans, plants ,... define their own implementation for it

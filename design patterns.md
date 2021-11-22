@@ -17,3 +17,7 @@
 - **Object Pooling** : an Object pool is a container which contains some amount of objects. So, when an object is taken from the pool, it is not available in the pool until it is put back.
 
   [Object Pool Design Pattern](https://www.geeksforgeeks.org/object-pool-design-pattern/)
+
+- **What is Microservice Architecture?**
+
+  Essentially, microservice architecture is a method of developing software applications as a suite of independently deployable, small, modular services in which each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal.

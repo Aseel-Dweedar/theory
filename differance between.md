@@ -69,3 +69,21 @@ Ans: Primary key cannot have NULL value, the unique constraints can have NULL va
 | ----------------------------------------------------------------------------------------- | ---------------------------------- |
 | used to specify a condition for a group or an aggregate function used in select statement | selects before grouping            |
 | selects rows after grouping                                                               | cannot contain aggregate functions |
+
+<br>
+
+<hr>
+<hr>
+
+<br>
+
+**what is the difference between session and cookie ?**
+
+| session               | cookie                          |
+| --------------------- | ------------------------------- |
+| more secure           | less secure                     |
+| stored at server side | stored at client browser        |
+| unlimited             | limited for the site by browser |
+| store any data type   | store as keyvalue(string)       |
+|                       | changed stored and turned       |
+|                       | off from the browser            |

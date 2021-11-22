@@ -9,3 +9,9 @@
 - **What is the “same-origin policy”?**
 
   a web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin
+
+- **What are sockets?**
+
+  A socket is one endpoint of a two way communication link between two programs running on the network.
+
+  [sockets](https://docs.oracle.com/javase/tutorial/networking/sockets/definition.html)
