@@ -22,12 +22,6 @@
 
   React creates a tree of custom objects representing a part of the DOM.
 
-- **why using node js?**
+- **did the props changeable or not?**
 
-  It's a light, scalable and open-source language platform which makes it very easy to build apps even at the enterprise level also. it fills the gap between frontend and backend applications.
-
-- **What is event emitting, what are they called?**
-
-  [emitting](https://stackoverflow.com/questions/13438924/what-is-an-event-emitter)
-
-- **How do you structure a new node/express server from scratch?**
+  A component cannot update its own props unless they are arrays or objects (having a component update its own props even if possible is an anti-pattern), but can update its state and the props of its children.

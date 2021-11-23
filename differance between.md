@@ -79,6 +79,10 @@ Ans: Primary key cannot have NULL value, the unique constraints can have NULL va
 
 **what is the difference between session and cookie ?**
 
+- A session is used to temporarily store the information on the server to be used across multiple pages of the website.
+
+- A cookie is a small text file that is stored on the user's computer.
+
 | session               | cookie                          |
 | --------------------- | ------------------------------- |
 | more secure           | less secure                     |
