@@ -22,6 +22,12 @@
 
 ==================================================
 
+- **What is the differences btw synch and asynch?**
+
+  Synchronous = happens at the same time. Asynchronous = doesn't happen at the same time.
+
+==================================================
+
 - **How are promises used?**
 
   promises used to handle asynchronous operations in JavaScript. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
@@ -33,3 +39,15 @@
   **Null**: It is one of the primitive values of JavaScript representation of no value. `let testVar;`
 
   **Undefined**: It means the value does not exist in the compiler. It is the global object . `let testVar = null;`
+
+==================================================
+
+- **what is closures?**
+
+  Global variables can be made local (private) with closures. a closure gives you access to an outer function’s scope from an inner function.
+
+==================================================
+
+- **what is local storage ?**
+
+  properties allow to save key/value pairs in a web browser with no expiration date. The data will not be deleted when the browser is closed. The localStorage property is read-only.

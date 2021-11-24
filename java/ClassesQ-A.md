@@ -31,3 +31,11 @@
 - **What is collection class in Java?**
 
   Member of the Java Collections Framework. basically used with the static methods that operate on the collections or return the collection.
+
+- **What is an association? and What is aggregation? What is composition?**
+
+  - **Association** is a connection or relationship between two separate classes.
+
+  - **Aggregation** in Java is a special kind of association. It represents the Has-A relationship between classes. Java Aggregation allows only one-to-one relationships.
+
+  - **Composition** is another form of aggregation which is considered as the restricted form of Association. the entities are completely dependent on each other. Composition allows for one-to-many relationships between objects.

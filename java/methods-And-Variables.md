@@ -38,16 +38,12 @@
 
   invoke the class without using instance.
 
+- **Why String Is Immutable In Java?**
+
+  Suppose there are 5 reference variables, all refer to one object "Sachin". If one reference variable changes the value of the object, it will be affected by all the reference variables.
+
 - **What is the difference between JDK, JRE, and JVM?**
 
   - JDK (Java Development Kit) : used for making applets and Java applications.
   - JRE (Java Runtime Environment): if you want to run Java program you need JRE.
   - JVM (Java Virtual Machine) : engine that provides a runtime environment to drive the Java Code or applications. It converts Java bytecode into machine language.
-
-- **What is an association? and What is aggregation? What is composition?**
-
-  - **Association** is a connection or relationship between two separate classes.
-
-  - **Aggregation** in Java is a special kind of association. It represents the Has-A relationship between classes. Java Aggregation allows only one-to-one relationships.
-
-  - **Composition** is another form of aggregation which is considered as the restricted form of Association. the entities are completely dependent on each other. Composition allows for one-to-many relationships between objects.

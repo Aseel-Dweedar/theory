@@ -8,7 +8,13 @@
 
   In modern databases transactions also do some other things - like ensure that you can't access data that another person has written halfway. But the basic idea is the same - transactions are there to ensure, that no matter what happens, the data you work with will be in a sensible state. They guarantee that there will NOT be a situation where money is withdrawn from one account, but not deposited to another.
 
-- **Database Indexing?**
+- **What is the difference between a MySQL statement and transition?**
+
+  A statement is a single operation, applies to a single row in a table or vast numbers of rows in multiple tables.
+
+  A transaction groups multiple consecutive statements in a single atomic unit.
+
+- **What is Database Indexing?**
 
   https://stackoverflow.com/questions/1108/how-does-database-indexing-work
 

@@ -1,3 +1,7 @@
+- **React is Single Page Application, What dose it mean?**
+
+  only load the application code (HTML, CSS, JavaScript) once. so when we move between pages it doesn't reload.
+
 - **what is the difference between state and props?**
 
   e key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.
