@@ -22,6 +22,10 @@
 
   A protocol is a system of rules that define how data is exchanged within or between computers.
 
+- **can we send data through get request?**
+
+  No, HTTP GET requests cannot have a message body. But you still can send data to the server using the URL parameters. In this case, you are limited to the maximum size of the URL, which is about 2000.
+
 - **How to send file in request?**
 
 - **How to send params in get request: “query params”?**

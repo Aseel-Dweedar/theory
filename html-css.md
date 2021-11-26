@@ -8,9 +8,11 @@
 
   The ID selector #first has priority over the class and tag selectors.
 
-- **How to optimise a web page**
 - **Where to put the styles?**
+
   inline, tag, file.
+
+- **How to optimise a web page**
 - **How do you make responsive design**
 - **How do you make` <img />` in the width of the screen no - matter how big or small it is**
 - **In css; what is `vh` and `vw` ?**

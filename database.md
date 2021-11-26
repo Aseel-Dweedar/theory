@@ -23,15 +23,3 @@
 - **What ORMs did you use? how are they useful?**
 
   "mongoose .. example" , **Object-relational mapping (ORM)** is a layer that converts our data between Database and object-oriented entities using object-oriented programming (OOP) language.
-
-- **Mention some aggregation functions in mongo, and what they do?**
-
-  Aggregation operations process data records and return computed results. Aggregation operations group values from multiple documents together, and can perform a variety of operations on the grouped data to return a single result.
-
-- **what is Views in mongodb?**
-
-  A queryable object whose contents are defined by an aggregation pipeline on other collections or views.
-
-- **Sql query to get the fifth highest salary inside employees table**
-
-  sort data --> limit it to 5 --> take the fifth value.

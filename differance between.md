@@ -91,3 +91,18 @@ Ans: Primary key cannot have NULL value, the unique constraints can have NULL va
 | store any data type   | store as keyvalue(string)       |
 |                       | changed stored and turned       |
 |                       | off from the browser            |
+
+<br>
+
+<hr>
+<hr>
+
+<br>
+
+- **What is the difference between sql and NoSql?**
+
+| SQL                               | NoSql                                                       |
+| --------------------------------- | ----------------------------------------------------------- |
+| vertically scalable               | horizontally scalable secure                                |
+| table-based stores                | stored at document, key-value, graph, or wide-column stores |
+| better for multi-row transactions | better for unstructured data like documents or JSON         |
