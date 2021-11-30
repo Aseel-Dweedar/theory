@@ -51,3 +51,9 @@
 - **what is local storage ?**
 
   properties allow to save key/value pairs in a web browser with no expiration date. The data will not be deleted when the browser is closed. The localStorage property is read-only.
+
+==================================================
+
+- **what is the difference between let and var?**
+
+  var is function scoped and let is block scoped.

@@ -6,4 +6,8 @@
 
   A queryable object whose contents are defined by an aggregation pipeline on other collections or views.
 
+- **.what is the importance of the schema feature in mongoose?**
+
+  defines the structure of the documents in your collection.
+
 - **how to make a relations in mongodb?**

@@ -27,3 +27,7 @@
   define an abstracted class without defining the implementation so it will be left to the subclasses to define the implementation separately
 
   example : define creature as abstract class that defines abstract methods to it's subclasses that extends it (aging, eating, growth , .. ), then each subclass like animals , humans, plants ,... define their own implementation for it
+
+- **Can a class extend an interface?**
+
+  No, class can implement more than one interface at a time. A class can extend only one class, but implement many interfaces. An interface can extend another interface, in a similar way as a class can extend another class.
