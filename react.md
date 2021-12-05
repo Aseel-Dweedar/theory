@@ -29,3 +29,11 @@
 - **did the props changeable or not?**
 
   A component cannot update its own props unless they are arrays or objects (having a component update its own props even if possible is an anti-pattern), but can update its state and the props of its children.
+
+- **What happens when you make a setState ?**
+
+  tells React that this component and its children need to be re-rendered with the updated state.
+
+- **What is React Lifecycle?**
+
+  https://www.w3schools.com/react/react_lifecycle.asp

@@ -106,3 +106,20 @@ Ans: Primary key cannot have NULL value, the unique constraints can have NULL va
 | vertically scalable               | horizontally scalable secure                                |
 | table-based stores                | stored at document, key-value, graph, or wide-column stores |
 | better for multi-row transactions | better for unstructured data like documents or JSON         |
+
+<br>
+
+<hr>
+<hr>
+
+<br>
+
+- **What is the difference between functional component and class component? / React**
+
+| functional component                                                                    | class component                                                                         |
+| --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| plain JavaScript function that accepts props as an argument and returns a React element | extend from React. Component and create a render function which returns a React element |
+| no render method                                                                        | must have the `render()` method returning HTML                                          |
+| React lifecycle methods (for example, componentDidMount) cannot be used                 | React lifecycle methods can be used inside                                              |
+| Hooks can be easily used                                                                | It requires different syntax inside a class component to implement hooks                |
+| Constructors are not used                                                               | Constructor are used as it needs to store state                                         |
