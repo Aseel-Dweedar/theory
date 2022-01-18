@@ -11,3 +11,40 @@
   defines the structure of the documents in your collection.
 
 - **how to make a relations in mongodb?**
+
+  1-  relate with a specifics field on other schema
+
+  ```javascript
+  const catSchema = new mongoose.Schema({
+    name: String,
+    breed: String,
+    description: String,
+    user: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "user",
+    },
+    // won't be effected by user document
+  });
+  ```
+
+  2- using virtual filed.
+
+  ```javascript
+  const userSchema = new mongoose.Schema({
+        username: String,
+        password: String,
+        email: String,
+    },
+    {
+        toJSON: { virtuals: true },
+        toObject: { virtuals: true },
+    }
+  );
+  userSchema.virtual("cats", {
+      ref: "cat",
+      localField: "_id",
+      foreignField: "user",
+  });
+
+  // virtual view from cat schema, the changes on the cat document will effect here
+  ```

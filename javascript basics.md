@@ -57,3 +57,18 @@
 - **what is the difference between let and var?**
 
   var is function scoped and let is block scoped.
+
+==================================================
+
+- **how to copy array to another?**
+
+  1. using spread operator -->  `arr1 = [ ...arr1 , ...arr2]`
+  2. loop and push.
+  3. push all ---> `arr1.push(...arr2)`
+  4. using concat. 'google it'.
+
+==================================================
+
+- **what is prototype??**
+
+  JavaScript objects inherit features from one another.

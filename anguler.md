@@ -6,6 +6,10 @@
 
   singleton objects that get instantiated only once during the lifetime of an application. They contain methods that maintain data throughout the life of an application. data does not get refreshed and is available all the time.
 
+- **What is angular module, Do you need more than one module in angular? why?**
+
+  Modules are a great way to organize an application and extend it with capabilities from external libraries. Every Angular application has at least one module, the root module. You **bootstrap** that module to launch the application.
+
 - **is angular single-page Application?**
 
   yes.
