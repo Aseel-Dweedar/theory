@@ -83,14 +83,16 @@ Ans: Primary key cannot have NULL value, the unique constraints can have NULL va
 
 - A cookie is a small text file that is stored on the user's computer.
 
-| session               | cookie                          |
-| --------------------- | ------------------------------- |
-| more secure           | less secure                     |
-| stored at server side | stored at client browser        |
-| unlimited             | limited for the site by browser |
-| store any data type   | store as keyvalue(string)       |
-|                       | changed stored and turned       |
-|                       | off from the browser            |
+| session               | cookie                          |Local Storage|
+| --------------------- | ------------------------------- |----|
+| more secure           | less secure                     ||
+| stored at server side | stored at client browser        |stored at client browser|
+| Data is gone when you close the browser tab | Has different expiration dates (both the server or client can set up expiration date) |Has no expiration date|
+| store any data type   | store as keyvalue(string)       |store as keyvalue(string)|
+| Has no SSL support   | Has SSL Support       |Has no SSL support|
+| 5-10 mb limit   | 4kb limit       |5 mb limit |
+| Data are not transferred on each HTTP request   |Data are transferred on each HTTP request      |Data are not transferred on each HTTP request |
+| The client  can only read local storage   |Both clients and servers can read and write the cookies      |The client  can only read local storage |
 
 <br>
 

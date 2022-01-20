@@ -55,3 +55,18 @@
 - **what is z-index and why to use it ?**
 
   move elements in Z axis so make it above each other.
+
+- **what is  SEO?**
+
+  Search Engine Optimization, [SEO](https://html.com/seo/)
+
+  - Sign up for Google Analytics and Search Console
+  - Build High-Quality Backlinks
+  - Create High-Quality Content
+  - Create an Accessible Website
+  - Structure Your Website Properly
+    - Add a Page Title and Description
+    - Use Meaningful URLs
+    - Keep Your Website Organized
+    - Keep Search Engines from Indexing the Wrong Pages
+    - Keep Your Reputation Intact
