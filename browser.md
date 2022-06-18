@@ -6,9 +6,27 @@
 
   console, network, … etc(the default ones not the installed)
 
+- **What is the server side rendering and a single web page app** (Diversity group interview)
+
+  https://www.youtube.com/watch?v=Kg0Q_YaQ3Gk&t=318s
+
 - **What is the “same-origin policy”?**
 
-  a web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin
+  URL-originn (protocol, (sublevel , domain name, toplevel), port).
+  
+  ![url-origin](/img/url.png)
+
+  same-origin policy: a web browser permits scripts contained in a first web page to access data in a second web page, but only if both web pages have the same origin
+
+- **What is CORS?**
+
+  Cross-origin resource sharing (CORS) is a mechanism that allows restricted resources on a web page to be requested from another domain.
+  
+  [CORS](https://www.youtube.com/watch?v=tcLW5d0KAYE&t=500s)
+
+- **what is local storage ?**
+
+  properties allow to save key/value pairs in a web browser with no expiration date. The data will not be deleted when the browser is closed. The localStorage property is read-only.
 
 - **What are sockets?**
 

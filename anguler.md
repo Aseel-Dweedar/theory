@@ -19,3 +19,9 @@
   - AngularJS is a structural framework for developing dynamic web apps, whereas React is a javascript library that allows you to build UI components.
   - Angular JS is based on MVC (Model View Controller) whereas React is based on Virtual DOM.
   - Angular is based on Typescript and React is based on Javascript
+
+- **why Angular is more secure than React?** (IntraSoft interview)
+
+  short answer: Angular depends on a built-in Modules, while React depends on community dependencies.
+
+  https://snyk.io/blog/comparing-react-and-angular-secure-coding-practices

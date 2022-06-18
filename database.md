@@ -1,4 +1,4 @@
-- **What is Database transaction?**
+- **What is Database transaction?** (IntraSoft interview )
 
   A transaction, in the context of a database, is a logical unit that is independently executed for data retrieval or updates
 
@@ -23,3 +23,15 @@
 - **What ORMs did you use? how are they useful?**
 
   "mongoose .. example" , **Object-relational mapping (ORM)** is a layer that converts our data between Database and object-oriented entities using object-oriented programming (OOP) language.
+
+- **is postgres secure more than mongodb and why?**
+
+  Yes, NoSQL databases are relatively new and are not preferred for highly secure applications.
+
+- **what is the difference between postgres and mysql?**
+
+  |                      | PostgreSQL                                                                                                                   | MySQL                                        |
+  | -------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
+  | Architecture         | Object relational;multiprocess                                                                                               | Relational; single process                   |
+  | Data types supported | Numeric, date/time, character, boolean, enumerated, geometric, network address, JSON, XML, HSTORE, arrays, ranges, composite | Numeric, date/time, character, spatial, JSON |
+  | Performance | Suited for applications with high volume of both reads and writes | Suitable for applications with high volume of reads |

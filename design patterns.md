@@ -1,23 +1,14 @@
 - **What is design pattern ? example ?**
-  as simple as (copied) : design pattern is a general repeatable solution to a commonly occurring problem in software design;
-
-  Design Patterns Examples for nodeJs:
-
-  - **Singletons**: create the class only once
+  
+  eneral repeatable solution to a commonly occurring problem in software design, Examples:
+  - **Singletons**: create the class only once. (Amazon interview)
   - **Observables**: to create event listeners
-  - **Factories**: general constructors
-  - **Dependency Injection**: pass deps by reference to the class or object
-  - **MiddleWares / PipeLines**: each return value of function returned to the next
+  - **Factories**: general constructors. (Atypon interview)
+  - **Dependency Injection**: pass deps by reference to the class or object. (Diversity group interview)
+  - **MiddleWares / PipeLines / Chain Of Responsibility**: is a design pattern to add cross-cutting concerns. the Middleware functions have access to the request object and the response object and also the next function in the application request-response lifecycle. and can validate the request. (YouApply interview)
   - **Streams**
+  - **Object Pooling** : an Object pool is a container which contains some amount of objects. So, when an object is taken from the pool, it is not available in the pool until it is put back.
 
-- **What are middleware?**
+    [Object Pool Design Pattern](https://www.geeksforgeeks.org/object-pool-design-pattern/)
 
-  is a design pattern to add cross cutting concerns like without having many code contact points.
-
-- **Object Pooling** : an Object pool is a container which contains some amount of objects. So, when an object is taken from the pool, it is not available in the pool until it is put back.
-
-  [Object Pool Design Pattern](https://www.geeksforgeeks.org/object-pool-design-pattern/)
-
-- **What is Microservice Architecture?**
-
-  Essentially, microservice architecture is a method of developing software applications as a suite of independently deployable, small, modular services in which each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal.
+  - **Microservice Architecture** (IntraSoft interview) :a method of developing software applications as a suite of independently deployable, small, modular services in which each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal.

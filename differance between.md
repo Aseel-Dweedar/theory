@@ -83,6 +83,8 @@ Ans: Primary key cannot have NULL value, the unique constraints can have NULL va
 
 - A cookie is a small text file that is stored on the user's computer.
 
+[Local Storage & Session Storage](https://www.youtube.com/watch?v=MOd5cTJ6kaA)
+
 | session               | cookie                          |Local Storage|
 | --------------------- | ------------------------------- |----|
 | more secure           | less secure                     ||
