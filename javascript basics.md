@@ -15,6 +15,10 @@
 
 ==================================================
 
+  **---> [JavaScript Tips](/img/js%20tips/JS-Tips.md)**
+
+==================================================
+
 - **Is JavaScript a functional language? What does it mean for a language to be “functional”?**
 
   to be able to build functions inside it based on **lambda-calculus**, which is done by declarations or impressions

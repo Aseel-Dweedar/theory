@@ -4,4 +4,6 @@
 
 - **What are JWT / Oauth2?**
 
-  **JSON Web Token (JWT)** is a way to encode claims in a JSON document that is then signed. JWTs can be used to encode all relevant parts of an access token into the access token itself instead of having to store them in a database.
+  *OAuth* 2.0, which stands for “Open Authorization”, is a standard designed to allow a website or application to access resources hosted by other web apps on behalf of a user.
+
+  *JWT* stands for JSON Web Token, is a mechanism to verify the owner of some JSON data. It’s an encoded string, JWTs can be used to encode all relevant parts of an access token instead of having to store them in a database.

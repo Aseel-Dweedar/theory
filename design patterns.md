@@ -6,6 +6,8 @@
   - **Factories**: general constructors. (Atypon interview)
   - **Dependency Injection**: pass deps by reference to the class or object. (Diversity group interview)
   - **MiddleWares / PipeLines / Chain Of Responsibility**: is a design pattern to add cross-cutting concerns. the Middleware functions have access to the request object and the response object and also the next function in the application request-response lifecycle. and can validate the request. (YouApply interview)
+  - **Builder Pattern** : [Builder Pattern](https://www.youtube.com/watch?v=M7Xi1yO_s8E&t=356s)
+  - **Facade Pattern** : [Facade Pattern](https://www.youtube.com/watch?v=fHPa5xzbpaA&t=336s)
   - **Streams**
   - **Object Pooling** : an Object pool is a container which contains some amount of objects. So, when an object is taken from the pool, it is not available in the pool until it is put back.
 

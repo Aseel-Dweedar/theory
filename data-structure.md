@@ -14,3 +14,9 @@
 - **what algorithm you will use to guess a number from 1-100?**
 
   binary search
+
+- **what is Big O notation?**
+
+  a mathematical notation that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
+
+  ![Big-O](/img/o(n).png)

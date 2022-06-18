@@ -44,6 +44,8 @@
 
 - **What is React Hooks?**
 
+  [React Hooks md](/img/react%20hooks/React-Hooks.md)
+
   https://reactjs.org/docs/hooks-intro.html
 
   - **what is HOCs?**
@@ -71,3 +73,7 @@
   3. Keep component that renders the list item as light as possible.
   4. Use Pure Component or Memo.
   5. Use cached optimized images.
+
+- **Give a way to dismiss the key board when touch the screen**
+
+  We can use `<touchablewithoutfeedback>`

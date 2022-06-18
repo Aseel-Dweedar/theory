@@ -70,3 +70,9 @@
     - Keep Your Website Organized
     - Keep Search Engines from Indexing the Wrong Pages
     - Keep Your Reputation Intact
+
+<hr>
+
+  **---> [CSS Tips](/img/css%20tips/CSS-Tips.md)**
+
+  **---> [HTML Tips](/img/html%20tips/HTML-Tips.md)**

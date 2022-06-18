@@ -8,6 +8,8 @@
 
   - https://cyclr.com/blog/rest-vs-soap-vs-graphql-api-types
 
+  ![graph-vs-rest](/img/graph-vs-rest.png)
+
 - **Define Restful API’s - REST (Representational State Transfer)**
 
   webs and applications that implements REST API is called restful, REST is programming architectural style for designing webs and apps, since we have pre-agreed-on rules to be followed; client can interact with the server without the need to know the details of operations the back end implements, networking apps agrees on using HTTP requests, get, post, put, delete,... and so with specific rules of when to use it and the purpose of it and the expected result.
